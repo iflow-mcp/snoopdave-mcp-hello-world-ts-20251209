@@ -1,6 +1,6 @@
 {
   "name": "@iflow-mcp/hello-world-mcp-server",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Hello World Model Context Protocol server",
   "type": "module",
   "main": "dist/index.js",
