@@ -1,10 +1,13 @@
 {
-  "name": "@snoopdave/hello-world-mcp-server",
+  "name": "@iflow-mcp/hello-world-mcp-server",
   "version": "1.0.0",
   "description": "Hello World Model Context Protocol server",
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "bin": {
+    "hello-world-mcp-server": "dist/index.js"
+  },
   "scripts": {
     "build": "tsc",
     "start": "node dist/index.js",
